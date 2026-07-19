@@ -46,7 +46,7 @@ st.markdown(response.json()["resolution"])
 else:
 st.error(f"Backend Server Error ({response.status_code}): {response.text}")
 except requests.exceptions.Timeout:
-st.error("Execution Timeout: The heavy document analysis exceeded the network buffer"
+st.error("Execution Timeout: The heavy document analysis exceeded the network buffer
 window.")
 except Exception as e:
 st.error(f"Gateway Connection Failure: {str(e)}")
