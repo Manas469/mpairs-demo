@@ -60,6 +60,3 @@ if st.button("Execute m-PAIRS Engine", type="primary"):
             st.error("Execution Timeout: The heavy document analysis exceeded the network buffer window.")
         except Exception as e:
             st.error(f"Gateway Connection Failure: {str(e)}")
-window.)
-except Exception as e:
-st.error(f"Gateway Connection Failure: {str(e)}")
